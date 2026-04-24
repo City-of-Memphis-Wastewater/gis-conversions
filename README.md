@@ -20,14 +20,16 @@ Use Case at Maxson
 
 ## Setup
 1. Clone the repository and navigate to the root.
+
+    ```bash
+    git clone git@github.com:City-of-Memphis-Wastewater/gis-conversions.git
+    cd gis-conversions
+    ```
+
 2. Create a `.env` file (see `.env.example` for the template):
-   ```bash
-   SHP_SOURCE_DIR="../../Documents/gis/ShapeFiles_4_8_26"
-   GEOJSON_OUT_DIR="../../Documents/gis/ShapeFiles_4_8_26/geojson/"
-   ORIGIN_LATITUDE=35.0456
-   ORIGIN_LONGITUDE=-90.0489
-   DXF_SRS="EPSG:2274"
-   ```
+    ```bash
+    cp .env.example .env
+    ```
 
 ## Usage
 ### Bulk Conversion
