@@ -3,7 +3,7 @@
 A zero-footprint, environment-aware utility suite for converting ESRI Shapefiles into various web and engineering formats. Optimized for high-fidelity mapping of municipal assets (wastewater, piping, and electrical) and integration into Three.js digital twins or CAD workflows.
 
 Features
-- Multi-Format Support: Bulk conversion to GeoJSON, KML, CSV, and DXF.
+- Multi-Format Support: Bulk conversion of SHP files to GeoJSON, KML, CSV, and DXF files.
 - Environment Decoupling: Uses .env files for site-specific coordinates and paths.
 - Dependency Lite: Pure Shell/Bash wrapper around GDAL—no complex runtime environments.
 
