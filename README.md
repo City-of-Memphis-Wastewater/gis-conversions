@@ -27,8 +27,18 @@ Use Case at Maxson
     ```
 
 2. Create a `.env` file (see `.env.example` for the template):
+
     ```bash
     cp .env.example .env
+    ```
+    Edit the `SHP_SOURCE_DIR` value to point to the `.shp` files you want. 
+    Otherwise, the current directory will be used.
+
+3. Enable and run the script of your choice.
+
+    ```bash
+    chmod +x scripts/shp-to-geojson.sh
+    ./scripts/shp-to-geojson.sh
     ```
 
 ## Usage
