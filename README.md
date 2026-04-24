@@ -30,6 +30,7 @@ Use Case at Maxson
 
     ```bash
     cp .env.example .env
+    nano .env
     ```
     Edit the `SHP_SOURCE_DIR` value to point to the `.shp` files you want. 
     Otherwise, the current directory will be used.
