@@ -1,7 +1,16 @@
 .env
+# Ignore any loose spatial files in the root
 *.shp
+*.shx
+*.dbf
+*.prj
 *.json
 *.kml
 *.csv
-!scripts/
+*.dxf
+
+# Ignore the entire output directory
 gis-output/
+
+# Keep the scripts
+!scripts/
