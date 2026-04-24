@@ -1,0 +1,7 @@
+.env
+*.shp
+*.json
+*.kml
+*.csv
+!scripts/
+gis-output/
