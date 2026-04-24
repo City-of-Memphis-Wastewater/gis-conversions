@@ -1,4 +1,4 @@
-# Maxson Plant GIS Transpiler
+# GIS Transpiler
 
 A zero-footprint, environment-aware utility suite for converting ESRI Shapefiles into various web and engineering formats. Optimized for high-fidelity mapping of municipal assets (wastewater, piping, and electrical) and integration into Three.js digital twins or CAD workflows.
 
@@ -9,8 +9,7 @@ Features
 
 Use Case at Maxson
 - **Interoperability**: Bridges the gap between ArcGIS Shapefiles and open-web standards.
-- **Engineering CAD**: Generates DXF files projected in Tennessee State Plane West (EPSG:2274) for immediate use in AutoCAD.
-- **DCS Alignment**: Ideal for mapping Ovation DCS database points to spatial geometries.
+- **Engineering CAD**: Generates DXF files projected in Tennessee State Plane West (EPSG:2274) for immediate use in AutoCAD, given SHP files profuced by the CoM GIS team.
 
 ## Prerequisites
 - **GDAL/ogr2ogr**: The core engine for this tool.
