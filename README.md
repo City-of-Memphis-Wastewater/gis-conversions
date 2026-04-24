@@ -72,6 +72,8 @@ MIT License - Feel free to leverage, modify, and distribute.
 
 ## Example
 
+### Succesful SHP to KML conversion then KML import to Google Earth
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/City-of-Memphis-Wastewater/gis-conversions/main/assets/kml-import-to-google-earth.png" width="100%" alt="Succesful SHP to KML conversion then KML import to Google Earth">
 </p>
